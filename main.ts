@@ -5,4 +5,4 @@ const EMOJI = '🫂';
 const dir = (process.env.MAKEFUN_OUTPUT_DIR ?? '/output').replace(/\/+$/, '');
 mkdirSync(dir, { recursive: true });
 writeFileSync(`${dir}/entry.txt`, EMOJI);
-// entry.txt carries the emoji alone: no words, no newline.
+// entry.txt carries the emoji alone: one character, no words.
