@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-// chosen: a hug reads warm and friendly to a stranger, no context needed
+// the one emoji, picked for the moment: a hug, warm to any stranger.
 const EMOJI = '🫂';
 const dir = (process.env.MAKEFUN_OUTPUT_DIR ?? '/output').replace(/\/+$/, '');
 mkdirSync(dir, { recursive: true });
